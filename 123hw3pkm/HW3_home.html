@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-<head>
-<style>
+	<head>
+		<style>
 
 #title {
     font-family: Georgia, serif;
@@ -24,28 +24,47 @@ table {
 a:link {
     text-decoration: none;
 }
+
+.parallax {
+    background-image:"restaurant.jfif";
+
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
     
 </style>
-</head>
-
-<body>
-    
-	<h1 id="title">Trojan Café</h1>
-	
-	<div id="navbar">
-		<table>
-			<tr>
-				<td><a href="https://alexwang1209.github.io/123hw3pkm/HW3_home.html">Home</a>&nbsp&nbsp</td>
-				<td>Italian&nbsp&nbsp</td>
-				<td>Indian&nbsp&nbsp</td>
-				<td>Japanese&nbsp&nbsp</td>
-				<td>Desserts&nbsp&nbsp</td>
-				<td>About&nbsp&nbsp</td>
-				<td>Contact&nbsp&nbsp</td>
-			</tr>
-		</table>
-	</div>
-	
-	
-</body>
+	</head>
+	<body>
+	    
+		<h1 id="title">Trojan Café</h1>
+		
+		<div id="navbar">
+			<table>
+				<tr>
+					<td>
+						<a href="https://alexwang1209.github.io/123hw3pkm/HW3_home.html">Home</a>&nbsp&nbsp
+					
+					
+					</td>
+					<td>
+						<a href="">Italian</a>&nbsp&nbsp
+					
+					</td>
+					<td>Indian&nbsp&nbsp</td>
+					<td>Japanese&nbsp&nbsp</td>
+					<td>Desserts&nbsp&nbsp</td>
+					<td>About&nbsp&nbsp</td>
+					<td>Contact&nbsp&nbsp</td>
+				</tr>
+			</table>
+		</div>
+		
+		<div class="parallax"></div>
+		
+	</body>
 </html>
