@@ -21,6 +21,7 @@ body {
     background-color: #ffeecc;
     position: relative;
     left: -80px;
+    width: 1000px;
 }
 
 table {
@@ -57,6 +58,11 @@ a:link {
     border-bottom: 1px #000;
 }
 
+.imageclass {
+    width:340px;
+    height:250px;
+}
+
 #italy {
     font-family: Georgia;
     font-size: 15px;
@@ -70,6 +76,50 @@ a:link {
 #italy span {
     color: blue;
 }
+
+#india {
+    font-family: Georgia;
+    font-size: 15px;
+    position: absolute;
+    top: 1000px;
+    left: 0px;
+    width: 300px;
+    height: 50px;
+}
+
+#india span {
+    color: blue;
+}
+
+#japanese {
+    font-family: Georgia;
+    font-size: 15px;
+    position: absolute;
+    top: 1300px;
+    left: 450px;
+    width: 300px;
+    height: 50px;
+}
+
+#japanese span {
+    color: blue;
+}
+
+#desserts {
+    font-family: Georgia;
+    font-size: 15px;
+    position: absolute;
+    top: 1600px;
+    left: 0px;
+    width: 300px;
+    height: 50px;
+}
+
+#desserts span {
+    color: blue;
+}
+
+
 
     
 </style>
@@ -105,16 +155,23 @@ a:link {
 		
 		<p id="explore">Explore Our Delicious Cuisines</p>
 		
-		<img src="https://alexwang1209.github.io/123hw3pkm/italiancuisine.jpg" alt="Italy's Finest" style="width:340px;height:250px;float:left; border:10px solid #80d4ff;"></img>
-		<br>
-		<br>
-		<br>
+		<img src="https://alexwang1209.github.io/123hw3pkm/italiancuisine.jpg" alt="Italy's Finest" class="imageclass" style="float:left; border:10px solid #ffeecc;">
+
 		<div id="italy"><span>Italy's Finest:</span><br>From our Lasanga to our Protein Penne, we have delicious options for every taste!</div>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
+		
+		<div id="india"><span>India's Flavors:</span><br>Our dishes are blended with masterful savory spices</div>
+		
+		<img src="https://alexwang1209.github.io/123hw3pkm/indiancuisine.jpg" alt="India's Flavors" class="imageclass" style="border:10px solid #80d4ff; position: absolute; top: 900px; left: 370px">
+		
+		<img src="https://alexwang1209.github.io/123hw3pkm/japanesecuisine.jpg" alt="Japanese Cuisine" class="imageclass" style="border:10px solid #ffeecc; position: absolute; top: 1200px; left: 0px">
+		
+		<div id="japanese"><span>Japanese Cuisine:</span><br>Delicious dining options from Sake to Sushi</div>
+		
+		<div id="desserts"><span>Desserts:</span><br>From Italian Tiramisu to Indian Gulab Jamun</div>
+		
+		<img src="https://alexwang1209.github.io/123hw3pkm/desserts.jpg" alt="Desserts" class="imageclass" style="border:10px solid #80d4ff; position: absolute; top: 1500px; left: 370px">
+		
+
 		
 		
 	</body>
